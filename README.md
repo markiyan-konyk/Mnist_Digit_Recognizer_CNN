@@ -24,6 +24,7 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to cl
 - torchvision
 - matplotlib
 - tqdm
+- opencv
 
 Install dependencies with:
 
