@@ -1,7 +1,7 @@
 # MNIST Digit Classifier with PyTorch
 
 This project implements a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits from the MNIST dataset. The model achieves high accuracy after just a few training epochs, although some further optimization would be needed, and includes a simple interactive demo to visualize predictions.
-
+![Model Output](nine.png)
 ## Instructions
 
 - Let the program train the model, progress bars wil appear, and the accuracy will be shown.
