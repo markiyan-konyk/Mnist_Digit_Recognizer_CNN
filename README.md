@@ -1,6 +1,12 @@
-# MNIST Digit Classifier with PyTorch
+# MNIST Digit Classifier with PyTorch (and Arduino Display)
 
-This project implements a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits from the MNIST dataset. The model achieves high accuracy after just a few training epochs, although some further optimization would be needed, and includes a simple interactive demo to visualize predictions.
+This project implements a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits from the MNIST dataset. The model achieves high accuracy after a few epochs, although playing around with dropout and epochs is recommended. Further it tests the model by indicating what numbers are predicted by the webcam, for this OpenCV was used.
+
+### Arduino 7-Segment Display
+
+You can make so the prediction is whows in a 7-segment display using an arduino. This serves just as a showcase that information from the model can be transmitted to an arduino program.
+To use the variant with the arduino, use the files in the Arduino folder.
+
 ![Model Output](nine.png)
 ## Instructions
 
@@ -25,8 +31,9 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to cl
 - matplotlib
 - tqdm
 - opencv
+- pyserial (for arduino)
 
 Install dependencies with:
 
 ```bash
-pip install torch torchvision matplotlib tqdm opencv
+pip install torch torchvision matplotlib tqdm opencv pyserial
