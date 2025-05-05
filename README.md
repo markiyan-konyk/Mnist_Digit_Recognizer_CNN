@@ -5,7 +5,8 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to cl
 ### Arduino 7-Segment Display
 
 You can make so the prediction is whows in a 7-segment display using an arduino. This serves just as a showcase that information from the model can be transmitted to an arduino program.
-To use the variant with the arduino, use the files in the Arduino folder.
+
+- To use the variant with the arduino, use the files in the Arduino folder.
 
 ![Model Output](nine.png)
 ## Instructions
